@@ -74,6 +74,7 @@ nav.bm-nav {
     display: block;
     font-size: 55px;
     font-style: italic;
+    font-family: 'Playfair Display', serif;
 }
 
 .hero-text a {
@@ -91,6 +92,7 @@ nav.bm-nav {
 
 #stats .title {
     font-size: 24px;
+    font-family: 'Playfair Display', serif;
 }
 
 #stats .description {
@@ -102,11 +104,13 @@ nav.bm-nav {
 .stat .number {
     font-size: 60px;
     color: #95AAB5;
+    font-family: 'Playfair Display', serif;
 }
 
 #stats .stat .description {
     font-family: inherit;
     font-weight: 400;
+    font-family: 'Playfair Display', serif;
 }
 
 .stat hr {
@@ -135,6 +139,7 @@ nav.bm-nav {
 #who-we-are .title {
     font-size: 30px;
     color: #000;
+    font-family: 'Playfair Display', serif;
 }
 
 #who-we-are {
@@ -150,6 +155,12 @@ nav.bm-nav {
     text-align: center;
     color: #b4b4b4;
     font-family: 'Montserrat', sans-serif;
+}
+
+#action .title {
+    font-size: 30px;
+    color: #000;
+    font-family: 'Playfair Display', serif;
 }
 
 footer {
