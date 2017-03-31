@@ -84,7 +84,8 @@ nav.bm-nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-.stat .counter, .stat .number {
+.stat .counter,
+.stat .number {
     font-size: 60px;
     color: #95AAB5;
 }
@@ -146,14 +147,15 @@ footer {
 
 /*MASONRY GRID*/
 
-#stories-boxes1, #stories-boxes2 {
+#stories-boxes1,
+#stories-boxes2 {
     width: 100%;
 }
 
 .story-box {
-	float: left;
-	text-align: center;
-	position: relative;
+    float: left;
+    text-align: center;
+    position: relative;
 }
 
 .story-box:nth-last-child(2) {
@@ -171,6 +173,12 @@ footer {
     top: 50%;
     left: 50%;
     margin: -43px 0px 0px -43px;
+}
+
+
+
+#stories-boxes2 {
+    margin-top: 20px;
 }
 
 .grid5 {
@@ -218,15 +226,11 @@ footer {
 }
 
 .grid24 {
-	width: 24%;
+    width: 24%;
 }
 
 .grid30 {
     width: 30%;
 }
 
-.helper {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
+
