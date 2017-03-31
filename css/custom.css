@@ -19,6 +19,20 @@ header {
     padding: 10px 30px;
 }
 
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 
 /**NAV**/
 
@@ -150,6 +164,7 @@ footer {
 #stories-boxes1,
 #stories-boxes2 {
     width: 100%;
+    overflow: overlay;
 }
 
 .story-box {
@@ -170,6 +185,7 @@ footer {
 #stories-boxes1 .story-box .thumb {
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 
 .story-box .play-button {
@@ -183,6 +199,18 @@ footer {
 
 #stories-boxes2 {
     margin-top: 20px;
+}
+
+.thumb {
+    padding: 2%;
+}
+
+.mid {
+    margin-top: 70px;
+}
+
+.story-box img {
+    width: 100%;
 }
 
 .grid5 {
