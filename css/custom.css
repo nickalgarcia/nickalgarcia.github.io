@@ -171,6 +171,9 @@ footer {
     float: left;
     text-align: center;
     position: relative;
+}
+
+#stories-boxes1 .story-box {
     height: 100%;
 }
 
