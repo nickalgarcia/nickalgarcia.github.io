@@ -278,3 +278,32 @@ footer {
 .grid30 {
     width: 30%;
 }
+
+
+/*PROJECT*/
+
+#project .project-content {
+    width: 45%;
+    padding: 280px 0;
+    float: right;
+}
+
+img.blueprint {
+    position: absolute;
+    z-index: 0;
+    top: -15%;
+    overflow: overlay;
+}
+
+img.building {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    overflow: hidden;
+}
+
+div#project {
+    margin: 80px 0;
+    background: #EBE7E3;
+    position: relative;
+}
