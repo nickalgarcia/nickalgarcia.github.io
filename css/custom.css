@@ -224,3 +224,9 @@ footer {
 .grid30 {
     width: 30%;
 }
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
