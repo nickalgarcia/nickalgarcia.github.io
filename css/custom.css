@@ -156,6 +156,7 @@ footer {
     float: left;
     text-align: center;
     position: relative;
+    height: 100%;
 }
 
 .story-box:nth-last-child(2) {
@@ -166,6 +167,11 @@ footer {
     text-align: left;
 }
 
+#stories-boxes1 .story-box .thumb {
+    position: absolute;
+    bottom: 0;
+}
+
 .story-box .play-button {
     width: 66px;
     height: 67px;
@@ -174,8 +180,6 @@ footer {
     left: 50%;
     margin: -43px 0px 0px -43px;
 }
-
-
 
 #stories-boxes2 {
     margin-top: 20px;
@@ -232,5 +236,3 @@ footer {
 .grid30 {
     width: 30%;
 }
-
-
