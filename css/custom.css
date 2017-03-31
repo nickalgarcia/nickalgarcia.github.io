@@ -1,0 +1,226 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.btn {
+    background-color: transparent;
+    color: #b4b4b4;
+    font-family: 'Montserrat', serif;
+    border: 2px solid #b4b4b4;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 30px;
+}
+
+
+/**NAV**/
+
+nav.bm-nav {
+    float: right;
+}
+
+.bm-nav .nav li {
+    display: inline-block;
+}
+
+.bm-nav .nav li a {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/*HERO*/
+
+#hero {
+    max-height: 700px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+}
+
+.hero-text span {
+    display: block;
+    font-size: 55px;
+    font-style: italic;
+}
+
+.hero-text a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+/*STATS*/
+
+#stats {
+    text-align: center;
+    padding: 40px 0;
+}
+
+#stats .title {
+    font-size: 24px;
+}
+
+#stats .description {
+    color: #b4b4b4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.stat .counter, .stat .number {
+    font-size: 60px;
+    color: #95AAB5;
+}
+
+#stats .stat .description {
+    font-family: inherit;
+    font-weight: 400;
+}
+
+.stat hr {
+    width: 15%;
+    border-top: 4px solid #C6C5C4;
+}
+
+.stat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #AAA9A7;
+}
+
+
+/*WHO WE ARE*/
+
+.who-we-are-container {
+    width: 60%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    background: #F5F3F1;
+    padding: 100px;
+}
+
+#who-we-are .title {
+    font-size: 30px;
+    color: #000;
+}
+
+#who-we-are {
+    color: #b4b4b4;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px 0;
+}
+
+
+/*ACTION*/
+
+#action {
+    text-align: center;
+    color: #b4b4b4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    height: 180px;
+    background: #F5F3F1;
+    margin-top: 40px;
+}
+
+
+/*MASONRY GRID*/
+
+#stories-boxes1, #stories-boxes2 {
+    width: 100%;
+}
+
+.story-box {
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+.story-box:nth-last-child(2) {
+    text-align: right;
+}
+
+.story-box:nth-child(1) {
+    text-align: left;
+}
+
+.story-box .play-button {
+    width: 66px;
+    height: 67px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -43px 0px 0px -43px;
+}
+
+.grid5 {
+    width: 5%;
+}
+
+.grid7 {
+    width: 7%;
+}
+
+.grid8 {
+    width: 8%
+}
+
+.grid9 {
+    width: 9%;
+}
+
+.grid10 {
+    width: 10%;
+}
+
+.grid15 {
+    width: 15%;
+}
+
+.grid18 {
+    width: 18%;
+}
+
+.grid20 {
+    width: 20%;
+}
+
+.grid21 {
+    width: 21%;
+}
+
+.grid22 {
+    width: 22%;
+}
+
+.grid23 {
+    width: 23%;
+}
+
+.grid24 {
+	width: 24%;
+}
+
+.grid30 {
+    width: 30%;
+}
