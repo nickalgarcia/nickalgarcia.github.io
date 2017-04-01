@@ -179,19 +179,20 @@ nav.bm-nav {
 #action .title {
     font-size: 36px;
     color: #4F5050;
-
     font-family: 'Playfair Display', serif;
 }
 
 #action .cta {
     font-size: 10px;
-        color: rgba(79, 80, 80, 0.5);
+    color: rgba(79, 80, 80, 0.5);
 }
 
 #action .content {
     font-size: 17px;
     color: rgba(79, 80, 80, 0.5);
     padding-bottom: 30px;
+    width: 35%;
+    margin: auto;
 }
 
 footer {
@@ -212,19 +213,20 @@ footer {
 #masonry .title {
     font-size: 36px;
     color: #4F5050;
-
     font-family: 'Playfair Display', serif;
 }
 
 #masonry .cta {
     font-size: 10px;
-        color: rgba(79, 80, 80, 0.5);
+    color: rgba(79, 80, 80, 0.5);
 }
 
 #masonry .content {
     font-size: 17px;
     color: rgba(79, 80, 80, 0.5);
     padding-bottom: 30px;
+    width: 35%;
+    margin: auto;
 }
 
 #stories-boxes1,
