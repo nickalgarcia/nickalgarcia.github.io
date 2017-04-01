@@ -23,6 +23,7 @@ header {
 .btn:hover {
     background: rgba(127, 127, 127, 0.5);
     color: #fff;
+    border: 1px solid #fff;
 }
 
 .clearfix {
@@ -103,7 +104,7 @@ nav.bm-nav {
 }
 
 #stats .description {
-    color: #4F5050;
+    color: rgba(79, 80, 80, 0.5);
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     width: 50%;
@@ -167,7 +168,7 @@ nav.bm-nav {
 }
 
 #blurb .description {
-    color: #4F5050;
+    color: rgba(79, 80, 80, 0.5);
     font-family: 'Montserrat', sans-serif;
     padding: 40px 0;
     font-size: 17px;
@@ -208,6 +209,7 @@ nav.bm-nav {
 #action .cta {
     font-size: 10px;
     color: rgba(79, 80, 80, 0.5);
+    text-transform: uppercase;
 }
 
 #action .content {
@@ -402,10 +404,32 @@ img.building {
     overflow: hidden;
 }
 
-div#project {
+#project {
     margin: 80px 0;
     background: #EBE7E3;
     position: relative;
+}
+
+#project .cta {
+    font-size: 10px;
+    color: rgba(79, 80, 80, 0.5);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#project .title {
+    font-size: 36px;
+    color: #4F5050;
+    font-family: 'Playfair Display', serif;
+}
+
+#project .content {
+    font-size: 17px;
+    color: rgba(79, 80, 80, 0.5);
+    padding-bottom: 30px;
+    width: 70%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (max-width: 767px) {
