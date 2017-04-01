@@ -307,3 +307,30 @@ div#project {
     background: #EBE7E3;
     position: relative;
 }
+
+@media screen and (max-width: 767px) {
+    #stories-boxes1 .story-box {
+        height: auto;
+        float: left;
+        width: 33%;
+    }
+    #stories-boxes2 .story-box {
+        float: left;
+        width: 33%;
+    }
+    #stories-boxes2 {
+        margin-top: 0;
+        overflow: visible;
+        display: inline-block;
+    }
+    #stories-boxes1 {
+        overflow: visible;
+        display: inline-block;
+    }
+    #stories-boxes1 .story-box .thumb {
+        position: static;
+    }
+    .mid {
+        margin-top: 0;
+    }
+}
