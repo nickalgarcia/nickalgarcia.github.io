@@ -146,22 +146,27 @@ nav.bm-nav {
 
 /*WHO WE ARE*/
 
-.who-we-are-container {
+#blurb {
+    padding: 120px 0;
+}
+
+.blurb-container {
     width: 60%;
     margin: auto;
     display: block;
     text-align: center;
     background: #EBE7E3;
     padding: 100px;
+    position: relative;
 }
 
-#who-we-are .title {
+#blurb .title {
     font-size: 36px;
     color: #4F5050;
     font-family: 'Playfair Display', serif;
 }
 
-#who-we-are .description {
+#blurb .description {
     color: #4F5050;
     font-family: 'Montserrat', sans-serif;
     padding: 40px 0;
@@ -170,7 +175,18 @@ nav.bm-nav {
 
 .line-top {
     border-left: 1px solid rgba(151, 151, 151, 0.5);
-    height: 30px;
+    height: 25%;
+    position: absolute;
+    top: -12%;
+    left: 50%;
+}
+
+.line-bottom {
+    border-left: 1px solid rgba(151, 151, 151, 0.5);
+    height: 25%;
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
 }
 
 
