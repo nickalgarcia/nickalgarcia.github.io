@@ -222,6 +222,7 @@ footer {
 #masonry .cta {
     font-size: 10px;
     color: rgba(79, 80, 80, 0.5);
+    text-transform: uppercase;
 }
 
 #masonry .content {
@@ -245,7 +246,8 @@ footer {
 }
 
 #stories-boxes1 .story-box {
-    height: 100%;
+    display: table-cell;
+    vertical-align: bottom;
 }
 
 .story-box:nth-last-child(2) {
@@ -257,9 +259,12 @@ footer {
 }
 
 #stories-boxes1 .story-box .thumb {
-    position: absolute;
-    bottom: 0;
     width: 100%;
+}
+
+#stories-boxes2 .story-box {
+    float: left;
+    text-align: center;
 }
 
 .story-box .play-button {
@@ -272,7 +277,8 @@ footer {
 }
 
 #stories-boxes1 {
-    margin-top: -100px;
+    margin-top: -50px;
+    display: table;
 }
 
 #stories-boxes2 {
@@ -285,6 +291,10 @@ footer {
 
 .mid {
     margin-top: 70px;
+}
+
+#stories-boxes1 .mid img {
+    margin-bottom: -70px;
 }
 
 .story-box img {
