@@ -127,6 +127,7 @@ nav.bm-nav {
     font-weight: 500;
     color: #AAA9A7;
     font-size: 12px;
+    width: 85%;
 }
 
 .stat hr {
@@ -201,6 +202,30 @@ footer {
 
 
 /*MASONRY GRID*/
+
+#masonry {
+    text-align: center;
+    color: #b4b4b4;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#masonry .title {
+    font-size: 36px;
+    color: #4F5050;
+
+    font-family: 'Playfair Display', serif;
+}
+
+#masonry .cta {
+    font-size: 10px;
+        color: rgba(79, 80, 80, 0.5);
+}
+
+#masonry .content {
+    font-size: 17px;
+    color: rgba(79, 80, 80, 0.5);
+    padding-bottom: 30px;
+}
 
 #stories-boxes1,
 #stories-boxes2 {
