@@ -248,6 +248,7 @@ footer {
 #stories-boxes1 .story-box {
     display: table-cell;
     vertical-align: bottom;
+    float: none;
 }
 
 .story-box:nth-last-child(2) {
@@ -281,9 +282,6 @@ footer {
     display: table;
 }
 
-#stories-boxes2 {
-    margin-top: -70px;
-}
 
 .thumb {
     padding: 2%;
