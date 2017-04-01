@@ -312,11 +312,11 @@ div#project {
     #stories-boxes1 .story-box {
         height: auto;
         float: left;
-        width: 33%;
+        width: 50%;
     }
     #stories-boxes2 .story-box {
         float: left;
-        width: 33%;
+        width: 50%;
     }
     #stories-boxes2 {
         margin-top: 0;
@@ -332,5 +332,19 @@ div#project {
     }
     .mid {
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #stories-boxes1 .story-box {
+        height: auto;
+        float: none;
+        width: 100%;
+        display: block;
+    }
+    #stories-boxes2 .story-box {
+        float: none;
+        width: 100%;
+        display: block;
     }
 }
