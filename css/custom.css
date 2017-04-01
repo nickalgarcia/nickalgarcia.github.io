@@ -168,6 +168,11 @@ nav.bm-nav {
     font-size: 17px;
 }
 
+.line-top {
+    border-left: 1px solid rgba(151, 151, 151, 0.5);
+    height: 30px;
+}
+
 
 /*ACTION*/
 
@@ -282,9 +287,16 @@ footer {
     display: table;
 }
 
-
 .thumb {
     padding: 2%;
+}
+
+.story-box:nth-child(1) .thumb {
+    padding-left: 0;
+}
+
+.story-box:nth-last-child(2) .thumb {
+    padding-right: 0;
 }
 
 .mid {
