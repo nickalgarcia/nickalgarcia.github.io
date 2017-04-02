@@ -104,6 +104,14 @@ nav.bm-nav {
     text-decoration: underline;
 }
 
+#hero .fa-angle-down {
+    position: absolute;
+    bottom: 10%;
+    font-size: 24px;
+    color: #fff;
+    left: 50%;
+}
+
 
 /*STATS*/
 
