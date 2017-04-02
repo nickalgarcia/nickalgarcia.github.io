@@ -52,6 +52,11 @@ a.logo {
     top: 50%;
 }
 
+.bm-nav .nav li a:hover {
+    background: transparent;
+    color: rgba(127, 127, 127, 0.5);
+}
+
 nav.bm-nav {
     float: right;
     margin-right: 2%;
