@@ -294,6 +294,7 @@ footer {
 
 #stories-boxes1 .story-box .thumb {
     width: 100%;
+    position: relative;
 }
 
 #stories-boxes2 .story-box {
@@ -462,6 +463,28 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .blurb-container {
+        width: 90%;
+    }
+    .blueprint {
+        height: 450px;
+        bottom: auto;
+        top: -8%;
+    }
+    .building {
+        height: 300px;
+        bottom: auto;
+        top: 35%;
+    }
+    #project .content {
+        font-size: 14px;
+    }
+    #project .title {
+        font-size: 24px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     #hero img {
         max-width: 160%;
@@ -503,7 +526,8 @@ footer {
     #stories-boxes1 .story-box .thumb {
         position: static;
     }
-    .mid {
+    .mid,
+    #stories-boxes1 .mid img {
         margin-top: 0;
     }
     #blurb .container {
@@ -512,6 +536,12 @@ footer {
     .blurb-container {
         width: 100%;
         padding: 20px;
+    }
+    #blurb .title {
+        font-size: 30px;
+    }
+    #blurb .description {
+        font-size: 15px;
     }
     .line-top {
         height: 15%;
