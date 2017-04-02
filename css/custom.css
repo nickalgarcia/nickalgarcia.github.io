@@ -52,7 +52,8 @@ a.logo {
     top: 50%;
 }
 
-.bm-nav .nav li a:hover {
+.bm-nav .nav li a:hover,
+.bm-nav .nav li a:focus {
     background: transparent;
     color: rgba(127, 127, 127, 0.5);
 }
@@ -499,6 +500,9 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+    a.logo {
+        width: 75px;
+    }
     #hero img {
         max-width: 160%;
         margin-left: -20%;
