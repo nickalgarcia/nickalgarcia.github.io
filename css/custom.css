@@ -520,7 +520,6 @@ footer {
         font-size: 38px;
         line-height: 44px;
     }
-    #masonry .content,
     #stats .description,
     #project .content,
     #action .content {
@@ -587,7 +586,8 @@ footer {
     .building {
         display: none;
     }
-    .project-right {
+    .project-right,
+    #masonry .content {
         float: none;
         width: 100%;
         padding: 0 20px;
