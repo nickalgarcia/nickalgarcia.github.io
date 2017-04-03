@@ -580,6 +580,7 @@ footer {
     .project-right {
         float: none;
         width: 100%;
+        padding: 0 20px;
     }
 }
 
