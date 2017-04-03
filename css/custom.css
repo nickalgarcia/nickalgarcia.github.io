@@ -476,6 +476,15 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (min-width: 1450px) {
+     .blueprint {
+        height: 960px;
+    }
+    .building {
+        height: 670px;
+    }
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .blurb-container {
         width: 90%;
