@@ -463,7 +463,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media screen and (min-width: 992px) and (min-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
     #project .project-content {
         max-height: 550px;
     }
