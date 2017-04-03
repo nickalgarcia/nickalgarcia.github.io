@@ -49,7 +49,7 @@ a.logo {
     left: 5%;
     position: absolute;
     height: 14px;
-    top: 50%;
+    top: 25%;
 }
 
 .bm-nav .nav li a:hover,
@@ -546,6 +546,11 @@ footer {
     .mid,
     #stories-boxes1 .mid img {
         margin-top: 0;
+        margin-bottom: 0;
+    }
+    .story-box:nth-last-child(2) .thumb,
+    .story-box:nth-child(1) .thumb {
+        padding: 2%;
     }
     #blurb .container {
         padding: 0;
