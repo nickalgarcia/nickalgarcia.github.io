@@ -77,7 +77,6 @@ nav.bm-nav {
 /*HERO*/
 
 #hero {
-    max-height: 700px;
     overflow: hidden;
     position: relative;
 }
