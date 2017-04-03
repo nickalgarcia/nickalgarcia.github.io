@@ -497,11 +497,6 @@ footer {
         max-height: 440px;
         padding: 5% 0;
     }
-    .project-image {
-        float: none;
-        display: block;
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 767px) {
@@ -591,6 +586,11 @@ footer {
         float: none;
         width: 100%;
         padding: 0 20px;
+    }
+    .project-image {
+        float: none;
+        display: block;
+        width: 100%;
     }
 }
 
