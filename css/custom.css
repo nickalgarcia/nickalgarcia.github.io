@@ -412,29 +412,7 @@ footer {
     width: 100%;
     padding: 11% 0;
     background: #EBE7E3;
-}
-
-.blueprint {
-    background: url(https://nickalgarcia.github.io/img/blueprint.png) no-repeat;
-    width: 55%;
-    height: 800px;
-    position: absolute;
-    bottom: -8%;
-    background-size: 100%;
-    /* top: auto; */
-    background-position: bottom;
-}
-
-.building {
-    background: url(https://nickalgarcia.github.io/img/building.png) no-repeat;
-    height: 600px;
-    position: absolute;
-    bottom: -15%;
-    left: 6%;
-    width: 50%;
-    background-size: 100%;
-    top: auto;
-    background-position: bottom;
+    max-height: 680px
 }
 
 .images {
@@ -452,6 +430,15 @@ footer {
 #project {
     margin: 80px 0;
     position: relative;
+}
+
+.project-image {
+    float: left;
+    width: 55%;
+}
+
+.project-image .building-image {
+    margin-top: -10%;
 }
 
 #project .cta {
@@ -475,6 +462,7 @@ footer {
     width: 70%;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /*@media screen and (min-width: 1450px) {
      .blueprint {
@@ -504,6 +492,15 @@ footer {
     }
     #project .title {
         font-size: 24px;
+    }
+    #project .project-content {
+        max-height: 440px;
+        padding: 5% 0;
+    }
+    .project-image {
+        float: none;
+        display: block;
+        width: 100%;
     }
 }
 
