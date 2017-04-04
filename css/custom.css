@@ -134,6 +134,9 @@ nav.bm-nav {
     display: block;
     font-size: 68px;
     font-style: italic;
+}
+
+.hero-text span a {
     font-family: 'UtopiaItalic', serif;
 }
 
