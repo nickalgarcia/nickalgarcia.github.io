@@ -47,7 +47,7 @@ header {
 .btn {
     background-color: transparent;
     color: #b4b4b4;
-    font-family: 'Gotham', sans-serif;
+    font-family: 'GothamBold', sans-serif;
     border: 2px solid rgba(127, 127, 127, 0.5);
     text-transform: uppercase;
     border-radius: 0;
@@ -156,7 +156,7 @@ nav.bm-nav {
 
 #stats .title {
     font-size: 36px;
-    font-family: 'Utopia-Headline', serif;
+    font-family: 'UtopiaHeadline', serif;
     color: #4F5050;
 }
 
@@ -178,7 +178,7 @@ nav.bm-nav {
 .stat .number {
     font-size: 72px;
     color: #95AAB5;
-    font-family: 'Utopia-Headline', serif;
+    font-family: 'UtopiaHeadline', serif;
 }
 
 #stats .stat .description {
@@ -205,7 +205,7 @@ nav.bm-nav {
 /*WHO WE ARE*/
 
 #blurb {
-    padding: 120px 0;
+    padding: 150px 0;
 }
 
 .blurb-container {
@@ -221,7 +221,7 @@ nav.bm-nav {
 #blurb .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Utopia-Headline', serif;
+    font-family: 'UtopiaHeadline', serif;
 }
 
 #blurb .description {
@@ -254,13 +254,13 @@ nav.bm-nav {
     text-align: center;
     color: #b4b4b4;
     font-family: 'GothamBook', sans-serif;
-    margin: 150px 0;
+    padding: : 150px 0;
 }
 
 #action .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Utopia-Headline', serif;
+    font-family: 'UtopiaHeadline', serif;
 }
 
 #action .cta {
@@ -297,7 +297,7 @@ footer {
 #masonry .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Utopia-Headline', serif;
+    font-family: 'UtopiaHeadline', serif;
 }
 
 #masonry .cta {
@@ -488,7 +488,7 @@ footer {
 #project .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Utopia-Headline', serif;
+    font-family: 'UtopiaHeadline', serif;
 }
 
 #project .content {
