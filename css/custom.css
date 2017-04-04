@@ -8,6 +8,11 @@
     src: url(..font/Utopia-Regular.ttf);
 }
 
+@font-face {
+    font-family: UtopiaHeadline;
+    src: url(..font/Utopia-Headline.ttf);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -132,7 +137,7 @@ nav.bm-nav {
 
 #stats .title {
     font-size: 36px;
-    font-family: 'Utopia', serif;
+    font-family: 'Utopia-Headline', serif;
     color: #4F5050;
 }
 
@@ -154,7 +159,7 @@ nav.bm-nav {
 .stat .number {
     font-size: 72px;
     color: #95AAB5;
-    font-family: 'Utopia', serif;
+    font-family: 'Utopia-Headline', serif;
 }
 
 #stats .stat .description {
@@ -197,7 +202,7 @@ nav.bm-nav {
 #blurb .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Utopia', serif;
+    font-family: 'Utopia-Headline', serif;
 }
 
 #blurb .description {
@@ -236,7 +241,7 @@ nav.bm-nav {
 #action .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Utopia', serif;
+    font-family: 'Utopia-Headline', serif;
 }
 
 #action .cta {
@@ -272,7 +277,7 @@ footer {
 #masonry .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Utopia', serif;
+    font-family: 'Utopia-Headline', serif;
 }
 
 #masonry .cta {
@@ -462,7 +467,7 @@ footer {
 #project .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Utopia', serif;
+    font-family: 'Utopia-Headline', serif;
 }
 
 #project .content {
