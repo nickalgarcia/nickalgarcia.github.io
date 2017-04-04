@@ -3,6 +3,11 @@
     src: url(../font/Gotham-Medium.otf);
 }
 
+@font-face {
+    font-family: Utopia;
+    src: url(..font/Utopia-Regular.ttf);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -101,7 +106,7 @@ nav.bm-nav {
     display: block;
     font-size: 68px;
     font-style: italic;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Utopia', serif;
 }
 
 .hero-text a {
@@ -127,7 +132,7 @@ nav.bm-nav {
 
 #stats .title {
     font-size: 36px;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Utopia', serif;
     color: #4F5050;
 }
 
@@ -141,7 +146,7 @@ nav.bm-nav {
 
 .number-title {
     font-weight: 400;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Utopia', serif;
     font-size: 17px;
 }
 
@@ -149,7 +154,7 @@ nav.bm-nav {
 .stat .number {
     font-size: 72px;
     color: #95AAB5;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Utopia', serif;
 }
 
 #stats .stat .description {
@@ -192,7 +197,7 @@ nav.bm-nav {
 #blurb .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Utopia', serif;
 }
 
 #blurb .description {
@@ -231,7 +236,7 @@ nav.bm-nav {
 #action .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Utopia', serif;
 }
 
 #action .cta {
@@ -267,7 +272,7 @@ footer {
 #masonry .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Utopia', serif;
 }
 
 #masonry .cta {
@@ -457,7 +462,7 @@ footer {
 #project .title {
     font-size: 36px;
     color: #4F5050;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Utopia', serif;
 }
 
 #project .content {
