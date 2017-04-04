@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../font/Gotham-Medium.otf);
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -13,7 +18,7 @@ header {
 .btn {
     background-color: transparent;
     color: #b4b4b4;
-    font-family: 'Montserrat', serif;
+    font-family: 'Gotham', sans-serif;
     border: 2px solid rgba(127, 127, 127, 0.5);
     text-transform: uppercase;
     border-radius: 0;
@@ -69,7 +74,7 @@ nav.bm-nav {
 
 .bm-nav .nav li a {
     color: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
     text-transform: uppercase;
 }
 
@@ -86,7 +91,7 @@ nav.bm-nav {
     top: 40%;
     color: #fff;
     font-size: 26px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
     font-weight: 200;
     text-align: center;
     width: 100%;
@@ -128,7 +133,7 @@ nav.bm-nav {
 
 #stats .description {
     color: rgba(79, 80, 80, 0.5);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
     font-size: 17px;
     width: 50%;
     margin: auto;
@@ -148,7 +153,7 @@ nav.bm-nav {
 }
 
 #stats .stat .description {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
     font-weight: 500;
     color: #AAA9A7;
     font-size: 12px;
@@ -161,7 +166,7 @@ nav.bm-nav {
 }
 
 .stat {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
     font-weight: 500;
     color: #AAA9A7;
     font-size: 12px;
@@ -192,7 +197,7 @@ nav.bm-nav {
 
 #blurb .description {
     color: rgba(79, 80, 80, 0.5);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
     padding: 40px 0;
     font-size: 17px;
 }
@@ -219,7 +224,7 @@ nav.bm-nav {
 #action {
     text-align: center;
     color: #b4b4b4;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
     margin: 150px 0;
 }
 
@@ -255,7 +260,7 @@ footer {
 #masonry {
     text-align: center;
     color: #b4b4b4;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
     margin: 100px 0 40px;
 }
 
@@ -445,7 +450,7 @@ footer {
     font-size: 10px;
     color: rgba(79, 80, 80, 0.5);
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
     font-weight: bold;
 }
 
@@ -460,7 +465,7 @@ footer {
     color: rgba(79, 80, 80, 0.5);
     padding-bottom: 30px;
     width: 70%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Gotham', sans-serif;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
