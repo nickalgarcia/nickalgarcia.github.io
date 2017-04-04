@@ -27,9 +27,14 @@
     font-family: UtopiaHeadline;
     src: url(..font/Utopia-Headline.ttf);
 }
+
 @font-face {
     font-family: UtopiaItalic;
     src: url(..font/Utopia-Italic.ttf);
+}
+
+* {
+    font-family: 'GothamBook', sans-serif;
 }
 
 img {
@@ -120,7 +125,6 @@ nav.bm-nav {
     top: 40%;
     color: #fff;
     font-size: 26px;
-    font-family: 'GothamBook', sans-serif;
     font-weight: 200;
     text-align: center;
     width: 100%;
@@ -154,7 +158,11 @@ nav.bm-nav {
     padding: 40px 0;
 }
 
-#stats .title {
+#stats .title,
+#blurb .title,
+#action .title,
+#masonry .title,
+#project .title {
     font-size: 36px;
     font-family: 'UtopiaHeadline', serif;
     color: #4F5050;
@@ -162,7 +170,6 @@ nav.bm-nav {
 
 #stats .description {
     color: rgba(79, 80, 80, 0.5);
-    font-family: 'GothamBook', sans-serif;
     font-size: 17px;
     width: 50%;
     margin: auto;
@@ -218,15 +225,8 @@ nav.bm-nav {
     position: relative;
 }
 
-#blurb .title {
-    font-size: 36px;
-    color: #4F5050;
-    font-family: 'UtopiaHeadline', serif;
-}
-
 #blurb .description {
     color: rgba(79, 80, 80, 0.5);
-    font-family: 'GothamBook', sans-serif;
     padding: 40px 0;
     font-size: 17px;
 }
@@ -253,17 +253,12 @@ nav.bm-nav {
 #action {
     text-align: center;
     color: #b4b4b4;
-    font-family: 'GothamBook', sans-serif;
     padding: 150px 0;
 }
 
-#action .title {
-    font-size: 36px;
-    color: #4F5050;
-    font-family: 'UtopiaHeadline', serif;
-}
-
-#action .cta {
+#action .cta,
+#masonry .cta,
+#project .cta {
     font-size: 10px;
     color: rgba(79, 80, 80, 0.5);
     text-transform: uppercase;
@@ -290,21 +285,7 @@ footer {
 #masonry {
     text-align: center;
     color: #b4b4b4;
-    font-family: 'GothamBook', sans-serif;
     margin: 100px 0 40px;
-}
-
-#masonry .title {
-    font-size: 36px;
-    color: #4F5050;
-    font-family: 'UtopiaHeadline', serif;
-}
-
-#masonry .cta {
-    font-size: 10px;
-    color: rgba(79, 80, 80, 0.5);
-    text-transform: uppercase;
-    font-family: 'GothamBold', sans-serif;
 }
 
 #masonry .content {
@@ -477,26 +458,11 @@ footer {
     margin-top: -10%;
 }
 
-#project .cta {
-    font-size: 10px;
-    color: rgba(79, 80, 80, 0.5);
-    text-transform: uppercase;
-    font-family: 'GothamBold', sans-serif;
-    font-weight: bold;
-}
-
-#project .title {
-    font-size: 36px;
-    color: #4F5050;
-    font-family: 'UtopiaHeadline', serif;
-}
-
 #project .content {
     font-size: 17px;
     color: rgba(79, 80, 80, 0.5);
     padding-bottom: 30px;
     width: 70%;
-    font-family: 'GothamBook', sans-serif;
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -547,6 +513,12 @@ footer {
         font-size: 38px;
         line-height: 44px;
     }
+    #action,
+    #project,
+    #blurb {
+        padding: 40px 0;
+        margin: 0;
+    }
     #stats .description,
     #project .content,
     #action .content {
@@ -588,13 +560,14 @@ footer {
     }
     .blurb-container {
         width: 100%;
-        padding: 20px;
+        padding: 40px 20px;
     }
     #blurb .title {
         font-size: 30px;
     }
     #blurb .description {
         font-size: 15px;
+        padding: 20px;
     }
     .line-top {
         height: 15%;
